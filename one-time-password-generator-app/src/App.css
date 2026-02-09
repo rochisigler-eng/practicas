@@ -1,0 +1,30 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  text-align:center;
+}
+
+body{
+  font-size:1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#otp-title{
+  margin-bottom:1rem;
+}
+#otp-display{
+margin-bottom:1rem;
+color:gray;
+}
+
+#generate-otp-button{
+  margin-top:2rem;
+  padding:.5em;
+  border-radius:10px;
+  background-color:rgb(61, 98, 103);
+  color:#fff;
+  font-size:1.5rem;
+}
