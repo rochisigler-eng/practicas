@@ -1,0 +1,76 @@
+:root {
+  --bg: #1b1b32;
+  --container: #3b3b4f;
+  --pad: #4d4d62;
+  --pad-hover: #1f2937;
+  --accent: #f1be32;      
+  --text: #f9fafb;
+
+  --font-headline: "Roboto Mono", monospace;
+    --font-family: "Lato", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--bg);
+  color: var(--text);
+  font-size:1.5rem;
+  font-family: var(--font-headline)
+}
+
+#drum-machine{
+  background-color: var(--container);
+  width: 25rem;
+  height:30rem;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:10%;
+  border-radius:10px;
+}
+
+#pad-bank{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr;
+  gap:.5rem;
+  width:85%;
+  height: 60%;
+  margin-right:auto;
+  margin-left:auto;
+  padding-top:1rem;
+
+}
+
+.drum-pad{
+  color: var(--text);
+  font-size:1.3rem;
+  background-color: var(--pad);
+  width:100%;
+  height: 100%;
+  border-radius:5px;
+}
+
+.drum-pad:hover{
+  cursor:pointer;
+}
+
+.drum-pad.active{
+  background-color: var(--accent);
+}
+.drum-pad:active{
+  background-color: var(--accent);
+}
+#display{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:85%;
+  height:13%;
+  background-color: var(--pad);
+  margin-right:auto;
+  margin-left:auto;
+  font-size:1.3rem;
+}
