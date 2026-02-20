@@ -18,16 +18,19 @@ body .title {
 body .cardContainer {
   display: flex;
   flex-direction: row;
+  width: 95%;
+  margin: 0 auto;
 }
 body .cardContainer .projectReferences {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 body .cardContainer .projectReferences .projectImgContainer {
   text-decoration: none;
   position: relative;
-  width: 15%;
-  height: 30%;
+  width: 23%;
+  height: 20%;
   margin: 0.5rem;
   border-radius: 10px;
   cursor: pointer;

@@ -54,7 +54,7 @@ export const workPortfolio = [
         type: "React · CSS3 · Hooks (useState, useEffect) · Git",
         name: "One Time Password Generator App",
         img: "assets/projects/react/password-generator.png",
-        link: "https://practicas-e00.pages.dev/one-time-password-generator-app/",
+        link: "https://one-time-password-generator.pages.dev/",
         status: "Completed",
         description: "One-Time Password (OTP) generator built with React and CSS. Implemented dynamic 6-digit OTP generation with countdown expiration logic using useState and useEffect. Managed timer lifecycle with interval cleanup to prevent memory leaks and controlled UI state (active, expired, disabled button) based on application logic. Improved accessibility using aria-live for real-time countdown updates.",
         date: "01/02/2026"
@@ -64,7 +64,7 @@ export const workPortfolio = [
         type: "React · JavaScript (ES6) · HTML5 · CSS3 · Hooks (useState, useMemo, useCallback) · Git",
         name: "Shopping List Search App",
         img: "assets/projects/react/shopping-list-search.png",
-        link: "https://practicas-e00.pages.dev/shopping-list-search-app/",
+        link: "https://shoping-list.pages.dev/",
         status: "Completed",
         description: "Shopping list built with React, HTML5, and CSS3. Added live search filtering using useMemo for optimized list recomputation, and item selection toggling with useCallback to manage state updates efficiently. Users can search items, toggle selection with checkboxes, and see selections reflected visually through line-through styling, all handled with concise state logic and clean component structure.",
         date: "31/01/2026"
@@ -74,7 +74,7 @@ export const workPortfolio = [
         type: "React ·  HTML5 · CSS3 · Hooks (useState, useMemo) · Git",
         name: "Currency Converter App",
         img: "assets/projects/react/currency-converter.png",
-        link: "https://practicas-e00.pages.dev/currency-converter-app/",
+        link: "https://currency-converter-9aq.pages.dev/",
         status: "Completed",
         description: "Implemented dynamic currency conversion using controlled inputs and dropdown selectors, with exchange rates managed in a structured object. Optimized base amount calculation using useMemo to avoid unnecessary recalculations and ensured real-time updates as users change amount or currencies. Applied clean state management and component structure for maintainable logic.",
         date: "27/01/2026"

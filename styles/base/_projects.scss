@@ -13,21 +13,23 @@
      .cardContainer {
          display: flex;
          flex-direction: row;
-       
+         width: 95%;
+        margin: 0 auto;
          .projectReferences {
              display: flex;
              flex-wrap: wrap;
+             justify-content: center;
 
              .projectImgContainer {
                  text-decoration: none;
                  position: relative;
-                 width: 15%;
-                 height: 30%;
+                 width: 23%;
+                 height: 20%;
                  margin: .5rem;
                  border-radius: 10px;
                  cursor: pointer;
                  overflow: hidden;
-
+                
                  &:hover {
                      border: 1px solid black;
 
